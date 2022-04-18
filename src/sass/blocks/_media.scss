@@ -1,0 +1,125 @@
+@media (max-width: 1200px) {
+    .promo {
+        padding: 21px 30px 93px 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            font-size: 12px;
+
+            span {
+                font-size: 12px;
+            }
+        }
+
+        &__logo {
+            width: 130px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &__phone {
+            width: 125px;
+            height: 27px;
+            font-size: 10px;
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 36px;
+        }
+
+        &__subheader {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        padding: 20px 5px 93px 5px;
+    }
+
+    .button {
+        width: 130px;
+        height: 30px
+    }
+
+    .header {
+        &__official {
+            font-size: 14px;
+            margin-top: 8px;
+
+            span {
+                margin-top: 5px;
+            }
+        }
+
+        &__official_visible {
+            display: none;
+        }
+
+        &__official_hidden {
+            width: 170px;
+            margin-top: 20px;
+        }
+
+        &__phone {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__logo {
+            img {
+                width: 120%;
+            }
+        }
+    }
+
+    .promo {
+        &__header {
+            text-align: center;
+        }
+
+        &__subheader {
+            text-align: center;
+        }
+
+        &__icons {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 360px;
+            height: 230px;
+        }
+
+        &__icon {
+            margin-top: 10px;
+        }
+
+        &__link {
+            font-size: 11px;
+            margin-top: 4px;
+        }
+    }
+
+    .button_main {
+        font-size: 9px;
+    }
+
+    .advantages {
+        &__icons {
+            flex-direction: column;
+        }
+
+        &__icon {
+            width: 300px;
+        }
+    }
+}

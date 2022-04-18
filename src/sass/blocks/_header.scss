@@ -18,6 +18,10 @@
         color: #FFFFFF;
         text-align: center;
 
+        &_hidden {
+            display: none;
+        }
+
         span {
             display: block;
             font-size: 18px;

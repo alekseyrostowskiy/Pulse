@@ -1,0 +1,18 @@
+.title {
+    color: #0D0D0D;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+
+    &_left {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: left;
+    }
+}

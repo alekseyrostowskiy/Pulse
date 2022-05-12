@@ -4,7 +4,36 @@
     }
 }
 
+@media (max-width: 1100px) {
+    .tns-item {
+        img {
+            width: 50%;
+            height: 50%;
+        }
+    }
+
+    .carousel {
+        .prev {
+            left: 105px;
+        }
+    }
+
+    .carousel {
+        .next {
+            right: 66px;
+            /* почему то не работает */
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .consultation .container {
+        margin-left: 30px;
+    }
+}
+
 @media (max-width: 767px) {
+
     .header {
         &__official {
             font-size: 12px;
@@ -40,12 +69,20 @@
     }
 }
 
+@media (max-width: 650px) {
+    .catalog__content {
+        justify-content: center;
+    }
+
+    /* не работает */
+}
+
 @media (max-width: 575px) {
     .promo {
         padding: 20px 5px 93px 5px;
     }
 
-    .button {
+    .promo__wrapper .button {
         width: 130px;
         height: 30px
     }
@@ -115,11 +152,18 @@
 
     .advantages {
         &__icons {
+            align-items: center;
             flex-direction: column;
         }
 
         &__icon {
             width: 300px;
         }
+    }
+}
+
+@media (max-width: 365px) {
+    .feed-form button {
+        width: 80%;
     }
 }

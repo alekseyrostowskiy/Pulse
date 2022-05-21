@@ -1,0 +1,16 @@
+@keyframes heartbeat {
+    from {
+        /* From=0% */
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.4);
+        /* Размерность */
+    }
+
+    to {
+        /* To=100% */
+        transform: scale(1);
+    }
+}

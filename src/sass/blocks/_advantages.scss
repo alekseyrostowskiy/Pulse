@@ -32,5 +32,21 @@
         line-height: 18px;
         width: 250px;
 
+        &_animated {
+            // animation: heartbeat 1.5s ease infinite;/* сокращённая запись */
+            animation-name: heartbeat;
+            /* Название ключевого кадра */
+            animation-duration: 1.5s;
+            /* Продолжение анимации */
+            animation-timing-function: ease;
+            /* интенсивность анимации */
+            animation-iteration-count: infinite;
+            /* количество анимаций */
+
+            &:hover {
+                animation-play-state: paused;
+                /* состояние анимации */
+            }
+        }
     }
 }

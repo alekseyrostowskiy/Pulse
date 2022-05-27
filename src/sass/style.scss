@@ -1,5 +1,8 @@
 @import 'base/variables';
-@import 'base/animations';
+@import 'libs/animate';
+@import 'libs/font';
+@import 'libs/slick';
+@import 'libs/tiny-slider';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
